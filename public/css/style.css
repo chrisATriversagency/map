@@ -426,31 +426,31 @@ a.tooltip__link {
       top: 200%; } }
 
 #mississippi-basin {
-  left: 65%;
-  top: 28%; }
+  left: 64%;
+  top: 37%; }
   #mississippi-basin:hover .map-tooltip {
     width: 172px; }
   @media (min-width: 768px) and (max-width: 992px) {
     #mississippi-basin:after {
-      width: 57%;
-      -webkit-transform: rotate(-70deg);
-              transform: rotate(-70deg);
-      left: -23%;
-      top: 119%; } }
+      width: 31%;
+      -webkit-transform: rotate(-61deg);
+              transform: rotate(-61deg);
+      left: -9%;
+      top: 102%; } }
   @media (min-width: 992px) and (max-width: 1200px) {
     #mississippi-basin:after {
-      width: 75%;
+      width: 45%;
       -webkit-transform: rotate(-70deg);
               transform: rotate(-70deg);
-      left: -28%;
-      top: 168%; } }
+      left: -15%;
+      top: 132%; } }
   @media (min-width: 1200px) {
     #mississippi-basin:after {
-      width: 100%;
+      width: 61%;
       -webkit-transform: rotate(-70deg);
               transform: rotate(-70deg);
-      left: -39%;
-      top: 208%; } }
+      left: -21%;
+      top: 162%; } }
 
 #galveston-bay {
   top: 70%;

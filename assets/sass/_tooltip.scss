@@ -308,8 +308,8 @@ a.tooltip__link {
 }
 
 #mississippi-basin {
-    left: 65%;
-    top: 28%;
+    left: 64%;
+    top: 37%;
 
     &:hover .map-tooltip {
         width: 172px;
@@ -317,22 +317,22 @@ a.tooltip__link {
 
     &:after {
         @media (min-width: $bootstrap_mobile) and (max-width: $bootstrap_medium) {
-            width: 57%;
-            transform: rotate(-70deg);
-            left: -23%;
-            top: 119%;
+            width: 31%;
+            transform: rotate(-61deg);
+            left: -9%;
+            top: 102%;
         }
         @media (min-width: $bootstrap_medium) and (max-width: $bootstrap_large) {
-            width: 75%;
+            width: 45%;
             transform: rotate(-70deg);
-            left: -28%;
-            top: 168%;
+            left: -15%;
+            top: 132%;
         }
         @media (min-width: $bootstrap_large) {
-            width: 100%;
+            width: 61%;
             transform: rotate(-70deg);
-            left: -39%;
-            top: 208%;
+            left: -21%;
+            top: 162%;
         }
     }
 }
