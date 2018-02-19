@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Map</title>
     <link rel="stylesheet" type="text/css" href="https://sph.unc.edu/wp-content/themes/sph-wp-theme-2014/css/style.css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/icomoon/style.css">
-    <link rel="stylesheet" href="public/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Slab" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="assets/icomoon/style.css">
+    <link rel="stylesheet" href="public/css/style.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Slab" rel="stylesheet"> -->
 
 </head>
 <body>
@@ -181,7 +181,9 @@
                             These are the locations of the active, funded projects currently being headed by the UNC Gillings School’s Center on Environmental Financial Risk. Hover over each region for more information.
                         </p>
 
-                        <iframe src="https://chrisatriversagency.github.io/mapiframe/" width="100%" height="550px"></iframe>
+                        <div class="intrinsic-container">
+                            <iframe src="https://chrisatriversagency.github.io/map/"></iframe>
+                        </div>
 
                         <div class="slideshow">
                             <div style="margin-top:30px;" id="alt-caption" class="text-center">
@@ -222,6 +224,72 @@
         </div>
 
         <script type="text/javascript" src="scripts.js"></script>
+
+        <style>
+	.intrinsic-container {
+	  position: relative;
+	  height: 0;
+	  overflow: hidden;
+	  padding-bottom: 65%;
+	}
+@media (min-width: 1200px){
+.intrinsic-container{
+padding-bottom: 70%;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+.intrinsic-container{
+padding-bottom: 80%;
+}
+}
+@media (min-width: 767px) and (max-width: 992px){
+.intrinsic-container{
+padding-bottom: 100%;
+}
+}
+@media (min-width: 674px) and (max-width:767px){
+.intrinsic-container{
+padding-bottom: 80%;
+}
+}
+@media (min-width: 546px) and (max-width:674px){
+.intrinsic-container{
+padding-bottom: 100%;
+}
+}
+@media (min-width: 520px) and (max-width:546px){
+.intrinsic-container{
+padding-bottom: 175%;
+}
+}
+@media (min-width: 475px) and (max-width:520px){
+.intrinsic-container{
+padding-bottom: 210%;
+}
+}
+@media (min-width: 454px ) and (max-width: 475px) {
+		.intrinsic-container {
+padding-bottom: 230%;
+		}
+	}
+	@media (min-width: 425px ) and (max-width: 454px) {
+		.intrinsic-container {
+			padding-bottom: 342%;
+		}
+	}
+	@media (max-width: 425px) {
+		.intrinsic-container {
+			padding-bottom: 376%;
+		}
+	}
+	.intrinsic-container iframe {
+	  position: absolute;
+	  top:0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+</style>
 
     </body>
     </html>
