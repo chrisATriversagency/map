@@ -65,10 +65,10 @@ body {
   border-radius: 50%;
   position: absolute;
   z-index: 1; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .dot {
       display: block; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     .dot {
       width: 5px;
       height: 5px; } }
@@ -86,7 +86,7 @@ body {
   opacity: 0;
   top: 0;
   left: 0; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     .dot:after {
       width: 5px;
       height: 5px; } }
@@ -137,7 +137,7 @@ body {
   left: 84%;
   top: 55%; }
 
-@media (max-width: 768px) {
+@media (max-width: 517px) {
   .tooltip-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -160,7 +160,7 @@ body {
   @media (min-width: 425px) {
     .tooltip-wrapper {
       width: 50%; } }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .tooltip-wrapper {
       position: absolute;
       width: 135px;
@@ -174,7 +174,7 @@ body {
 
 .map-tooltip {
   text-align: left; }
-  @media (max-width: 768px) {
+  @media (max-width: 517px) {
     .map-tooltip {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -186,7 +186,7 @@ body {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; } }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .map-tooltip {
       position: absolute;
       width: 135px;
@@ -215,7 +215,7 @@ body {
   height: 10px;
   position: relative; }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover .icon-container {
     height: 13px; } }
 
@@ -236,7 +236,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .header {
       font-size: 10px;
       height: 25px;
@@ -247,11 +247,11 @@ body {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg); }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover .header i {
     display: none; } }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover .header {
     font-size: 15px;
     height: 40px; } }
@@ -272,11 +272,11 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .content {
       display: none; } }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover > .content {
     display: block; } }
 
@@ -301,11 +301,11 @@ body {
   position: relative;
   margin: 0; }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover .icon-container .icon {
     bottom: 12px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 517px) {
   .map-tooltip:hover .icon {
     font-size: 25px; } }
 
@@ -318,21 +318,21 @@ a.tooltip__link {
 #columbia-basin {
   top: 27%;
   left: 0%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #columbia-basin:after {
       width: 33%;
       -webkit-transform: rotate(-70deg);
               transform: rotate(-70deg);
       left: 12%;
       top: -44%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #columbia-basin:after {
       width: 41%;
       -webkit-transform: rotate(-70deg);
               transform: rotate(-70deg);
       left: 21%;
       top: -55%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #columbia-basin:after {
       width: 54%;
       -webkit-transform: rotate(-70deg);
@@ -343,21 +343,25 @@ a.tooltip__link {
 #central-valley {
   top: 66.5%;
   left: 4%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
+    #central-valley {
+      top: 77.5%;
+      left: 4%; } }
+  @media (min-width: 517px) and (max-width: 682px) {
     #central-valley:after {
-      width: 42%;
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
-      left: 11%;
-      top: -41%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+      width: 62%;
+      -webkit-transform: rotate(65deg);
+              transform: rotate(65deg);
+      left: -1%;
+      top: -82%; } }
+  @media (min-width: 682px) and (max-width: 830px) {
     #central-valley:after {
       width: 60%;
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       left: 19%;
       top: -41%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #central-valley:after {
       width: 62%;
       -webkit-transform: rotate(45deg);
@@ -372,21 +376,25 @@ a.tooltip__link {
 #rio-grande-valley {
   top: 62%;
   left: 26%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 682px) and (max-width: 830px) {
+    #rio-grande-valley {
+      top: 62%;
+      left: 30%; } }
+  @media (min-width: 517px) and (max-width: 682px) {
     #rio-grande-valley:after {
-      width: 74%;
+      width: 60%;
+      -webkit-transform: rotate(75deg);
+              transform: rotate(75deg);
+      left: 28%;
+      top: 162%; } }
+  @media (min-width: 682px) and (max-width: 830px) {
+    #rio-grande-valley:after {
+      width: 88%;
       -webkit-transform: rotate(75deg);
               transform: rotate(75deg);
       left: 18%;
-      top: 198%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
-    #rio-grande-valley:after {
-      width: 114%;
-      -webkit-transform: rotate(75deg);
-              transform: rotate(75deg);
-      left: 19%;
-      top: 267%; } }
-  @media (min-width: 1200px) {
+      top: 218%; } }
+  @media (min-width: 830px) {
     #rio-grande-valley:after {
       width: 112%;
       -webkit-transform: rotate(75deg);
@@ -397,27 +405,27 @@ a.tooltip__link {
 #great-lakes {
   top: -3%;
   left: 40%; }
-  @media (min-width: 768px) and (max-width: 1200px) {
+  @media (min-width: 517px) and (max-width: 830px) {
     #great-lakes .map-tooltip:hover {
       width: 150px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #great-lakes .map-tooltip:hover {
       width: 172px; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #great-lakes:after {
       width: 43%;
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       left: 53%;
       top: 142%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #great-lakes:after {
       width: 75%;
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
       left: 63%;
       top: 183%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #great-lakes:after {
       width: 110%;
       -webkit-transform: rotate(45deg);
@@ -428,27 +436,27 @@ a.tooltip__link {
 #mississippi-basin {
   left: 64%;
   top: 37%; }
-  @media (min-width: 768px) and (max-width: 1200px) {
+  @media (min-width: 517px) and (max-width: 830px) {
     #mississippi-basin .map-tooltip:hover {
       width: 150px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #mississippi-basin .map-tooltip:hover {
       width: 172px; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #mississippi-basin:after {
       width: 31%;
       -webkit-transform: rotate(-61deg);
               transform: rotate(-61deg);
       left: -9%;
       top: 102%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #mississippi-basin:after {
       width: 45%;
       -webkit-transform: rotate(-70deg);
               transform: rotate(-70deg);
       left: -15%;
       top: 132%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #mississippi-basin:after {
       width: 61%;
       -webkit-transform: rotate(-70deg);
@@ -459,25 +467,25 @@ a.tooltip__link {
 #galveston-bay {
   top: 70%;
   left: 58%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #galveston-bay {
       top: 87%;
       left: 53%; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #galveston-bay:after {
       width: 19%;
       -webkit-transform: rotate(-130deg);
               transform: rotate(-130deg);
       left: -1%;
       top: 14%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #galveston-bay:after {
       width: 48%;
       -webkit-transform: rotate(-38deg);
               transform: rotate(-38deg);
       left: -27%;
       top: 117%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #galveston-bay:after {
       width: 48%;
       -webkit-transform: rotate(-38deg);
@@ -488,28 +496,28 @@ a.tooltip__link {
 #catawba-basin {
   top: 65%;
   left: 85%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #catawba-basin {
       top: 65%;
       left: 59%; } }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     #catawba-basin .map-tooltip:hover {
       width: 150px; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #catawba-basin:after {
       width: 16%;
       -webkit-transform: rotate(142deg);
               transform: rotate(142deg);
       left: 61%;
       top: -26%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #catawba-basin:after {
       width: 42%;
       -webkit-transform: rotate(55deg);
               transform: rotate(55deg);
       left: -19%;
       top: 2%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #catawba-basin:after {
       width: 50%;
       -webkit-transform: rotate(55deg);
@@ -520,31 +528,31 @@ a.tooltip__link {
 #research-triangle {
   left: 88%;
   top: 39%; }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #research-triangle {
       left: 84%;
       top: 50%; } }
-  @media (min-width: 768px) and (max-width: 1200px) {
+  @media (min-width: 517px) and (max-width: 830px) {
     #research-triangle .map-tooltip:hover {
       width: 130px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #research-triangle .map-tooltip:hover {
       width: 150px; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #research-triangle:after {
       width: 20%;
       -webkit-transform: rotate(33deg);
               transform: rotate(33deg);
       left: 0%;
       top: 63%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #research-triangle:after {
       width: 83%;
       -webkit-transform: rotate(152deg);
               transform: rotate(152deg);
       left: -17%;
       top: 110%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #research-triangle:after {
       width: 95%;
       -webkit-transform: rotate(152deg);
@@ -555,24 +563,24 @@ a.tooltip__link {
 #roanoke-basin {
   left: 78%;
   top: 10%; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     #roanoke-basin .map-tooltip:hover {
       width: 150px; } }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 517px) and (max-width: 682px) {
     #roanoke-basin:after {
       width: 71%;
       -webkit-transform: rotate(90deg);
               transform: rotate(90deg);
       left: -9%;
       top: 190%; } }
-  @media (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 682px) and (max-width: 830px) {
     #roanoke-basin:after {
       width: 109%;
       -webkit-transform: rotate(90deg);
               transform: rotate(90deg);
       left: -17%;
       top: 247%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     #roanoke-basin:after {
       width: 136%;
       -webkit-transform: rotate(90deg);
@@ -606,10 +614,10 @@ a.tooltip__link {
   font-size: 12px;
   color: #fff;
   height: 35px; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .key {
       width: 33.33%; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 830px) {
     .key {
       width: 16.66%; } }
 
@@ -617,12 +625,12 @@ a.tooltip__link {
   font-size: 18px;
   margin-right: 10px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 830px) {
   .key:first-of-type {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 830px) {
   .key:last-of-type {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; } }
@@ -679,7 +687,7 @@ a.tooltip__link {
   position: relative;
   bottom: 10px;
   font-size: 18px; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .icon-container .icon {
       bottom: 6px;
       font-size: 15px; } }
@@ -698,7 +706,7 @@ a.tooltip__link {
 
 .map-wrapper {
   text-align: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     .map-wrapper {
       padding: 0 80px 0 0; } }
 
@@ -717,7 +725,7 @@ a.tooltip__link {
 #svg,
 #blue-svg {
   display: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 517px) {
     #svg,
     #blue-svg {
       display: block; } }

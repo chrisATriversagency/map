@@ -221,12 +221,17 @@ a.tooltip__link {
     top: 66.5%;
     left: 4%;
 
+    @media (min-width: $bootstrap_mobile) and (max-width: $bootstrap_medium) {
+        top: 77.5%;
+        left: 4%;
+    }
+
     &:after {
         @media (min-width: $bootstrap_mobile) and (max-width: $bootstrap_medium) {
-            width: 42%;
-            transform: rotate(45deg);
-            left: 11%;
-            top: -41%;
+            width: 62%;
+            transform: rotate(65deg);
+            left: -1%;
+            top: -82%;
         }
         @media (min-width: $bootstrap_medium) and (max-width: $bootstrap_large) {
             width: 60%;
@@ -253,18 +258,23 @@ a.tooltip__link {
     top: 62%;
     left: 26%;
 
+    @media (min-width: $bootstrap_medium) and (max-width: $bootstrap_large) {
+        top: 62%;
+        left: 30%;
+    }
+
     &:after {
         @media (min-width: $bootstrap_mobile) and (max-width: $bootstrap_medium) {
-            width: 74%;
+            width: 60%;
             transform: rotate(75deg);
-            left: 18%;
-            top: 198%;
+            left: 28%;
+            top: 162%;
         }
         @media (min-width: $bootstrap_medium) and (max-width: $bootstrap_large) {
-            width: 114%;
+            width: 88%;
             transform: rotate(75deg);
-            left: 19%;
-            top: 267%;
+            left: 18%;
+            top: 218%;
         }
         @media (min-width: $bootstrap_large) {
             width: 112%;
