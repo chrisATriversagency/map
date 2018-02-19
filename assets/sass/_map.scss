@@ -1,3 +1,17 @@
+.custom-map-wrapper {
+    @media (min-width: 517px) {
+        width: 517px;
+    }
+
+    @media (min-width: 682px) {
+        width: 682px;
+    }
+
+    @media (min-width: 830px) {
+        width: 830px;
+    }
+}
+
 .map-wrapper{
 	text-align: center;
 
