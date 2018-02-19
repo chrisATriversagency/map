@@ -366,11 +366,11 @@ a.tooltip__link {
       top: -84%; } }
 
 #water-utilities {
-  top: 28%;
+  top: 36%;
   left: 30%; }
 
 #rio-grande-valley {
-  top: 53%;
+  top: 62%;
   left: 26%; }
   @media (min-width: 768px) and (max-width: 992px) {
     #rio-grande-valley:after {
@@ -388,11 +388,11 @@ a.tooltip__link {
       top: 267%; } }
   @media (min-width: 1200px) {
     #rio-grande-valley:after {
-      width: 149%;
+      width: 112%;
       -webkit-transform: rotate(75deg);
               transform: rotate(75deg);
-      left: 19%;
-      top: 312%; } }
+      left: 40%;
+      top: 250%; } }
 
 #great-lakes {
   top: -3%;
@@ -579,6 +579,10 @@ a.tooltip__link {
               transform: rotate(90deg);
       left: -23%;
       top: 310%; } }
+
+#biofuel-production {
+  left: 21%;
+  top: 10%; }
 
 .legend {
   display: -webkit-box;

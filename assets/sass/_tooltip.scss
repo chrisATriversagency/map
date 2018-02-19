@@ -245,12 +245,12 @@ a.tooltip__link {
 }
 
 #water-utilities {
-    top: 28%;
+    top: 36%;
     left: 30%;
 }
 
 #rio-grande-valley {
-    top: 53%;
+    top: 62%;
     left: 26%;
 
     &:after {
@@ -267,10 +267,10 @@ a.tooltip__link {
             top: 267%;
         }
         @media (min-width: $bootstrap_large) {
-            width: 149%;
+            width: 112%;
             transform: rotate(75deg);
-            left: 19%;
-            top: 312%;
+            left: 40%;
+            top: 250%;
         }
     }
 }
@@ -489,4 +489,9 @@ a.tooltip__link {
             top: 310%;
         }
     }
+}
+
+#biofuel-production {
+    left: 21%;
+    top: 10%;
 }

@@ -1,17 +1,21 @@
 (function() {
 
     var toolTips = document.querySelectorAll('.map-tooltip');
-    var waterUtilities = document.getElementById('water-utilities');
+    var fullMapHovers = document.querySelectorAll('.full-map-hover');
     var blueMap = document.getElementById('blue-svg');
 
-    if (waterUtilities != null) {
-    	waterUtilities.addEventListener('mouseover', function() {
-    		blueMap.style.opacity = '1';
-    	});
+    if (fullMapHovers != null) {
 
-    	waterUtilities.addEventListener('mouseleave', function() {
-    		blueMap.style.opacity = '0';
-    	});
+        for (var i = 0; i < fullMapHovers.length; i++) {
+
+            fullMapHovers[i].addEventListener('mouseover', function() {
+                blueMap.style.opacity = '1';
+            });
+
+            fullMapHovers[i].addEventListener('mouseleave', function() {
+                blueMap.style.opacity = '0';
+            });
+        }
     }
 
     for (var i = 0; i < toolTips.length; i++) {
